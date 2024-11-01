@@ -6,7 +6,7 @@ This is a React-based application designed to generate secure passwords. Users c
 
 ## Features
 
-Generate strong and secure passwords
+    - Generate strong and secure passwords
     - Options to include: (A-Z) (@!-$^+#) (0-9)
     - Adjustable password length (5 to 25 characters)
     - Copy generated passwords to the clipboard with a single click
