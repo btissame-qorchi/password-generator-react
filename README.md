@@ -30,3 +30,7 @@ Copy generated passwords to the clipboard with a single click
     - Clone the repository.
     - Install the dependencies with npm install.
     - Start the application with npm run dev.
+
+## Demo
+https://btissame-qorchi.github.io/password-generator-react/
+
