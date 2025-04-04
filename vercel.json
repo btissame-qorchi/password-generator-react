@@ -2,24 +2,16 @@
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/static-build"
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
     }
   ],
   "routes": [
     {
-      "src": "/password-generator-react/(.*)",
-      "dest": "/dist/$1"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/dist/assets/*.js",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/javascript; charset=utf-8"
-        }
-      ]
+      "src": "/(.*)",
+      "dest": "/dist/index.html"
     }
   ]
 }
